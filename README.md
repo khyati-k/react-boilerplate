@@ -5,3 +5,5 @@ TODO
 tests
 css loader
 redux
+.jsx
+favicon

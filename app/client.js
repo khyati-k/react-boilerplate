@@ -1,12 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-// local dependencies
+import App from './App';
 
-class App extends React.Component {
-  render() {
-    return <div>Hi</div>;
-  }
-}
+const data = [1, 2, 3];
 
-ReactDOM.render(<App />, root);
+ReactDOM.render(<App data={data} />, root);
